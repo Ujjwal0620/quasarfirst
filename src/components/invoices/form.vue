@@ -88,7 +88,7 @@
       <q-select
         color="purple-12"
         v-model="formData.payment_status"
-        :options="['unpaid', 'partially paid', 'paid']"
+        :options="['unpaid', 'partially paid']"
         label="Status"
       >
         <template v-slot:prepend>
